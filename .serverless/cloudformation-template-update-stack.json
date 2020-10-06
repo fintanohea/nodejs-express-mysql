@@ -146,7 +146,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/nodejs-express-mysql/dev/1601942114729-2020-10-05T23:55:14.729Z/nodejs-express-mysql.zip"
+          "S3Key": "serverless/nodejs-express-mysql/dev/1602012930996-2020-10-06T19:35:30.996Z/nodejs-express-mysql.zip"
         },
         "FunctionName": "nodejs-express-mysql-dev-app",
         "Handler": "server.handler",
@@ -164,14 +164,14 @@
         "AppLogGroup"
       ]
     },
-    "AppLambdaVersion67KBXPgzMm9y9AD2lhTrci7E2PynGzTY4e8uwZVzCWA": {
+    "AppLambdaVersions7Ced8pRm4KuOxtfHBO3BXMRcgJCTT8fFV2lmSt8ck": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "AppLambdaFunction"
         },
-        "CodeSha256": "+GWhbN1OAcXpTa+54WSv31qtgDPyTdsqc5GTIazLiwY="
+        "CodeSha256": "pfebShYb3iyXuBCUbWR8sen7sXY2rhoXq1TrZL6d/vo="
       }
     },
     "ApiGatewayRestApi": {
@@ -383,7 +383,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1601942111672": {
+    "ApiGatewayDeployment1602012927090": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -445,7 +445,7 @@
     "AppLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "AppLambdaVersion67KBXPgzMm9y9AD2lhTrci7E2PynGzTY4e8uwZVzCWA"
+        "Ref": "AppLambdaVersions7Ced8pRm4KuOxtfHBO3BXMRcgJCTT8fFV2lmSt8ck"
       }
     },
     "ServiceEndpoint": {
