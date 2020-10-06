@@ -160,7 +160,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/nodejs-express-mysql/dev/1602012930996-2020-10-06T19:35:30.996Z/nodejs-express-mysql.zip"
+                "S3Key": "serverless/nodejs-express-mysql/dev/1602021234409-2020-10-06T21:53:54.409Z/nodejs-express-mysql.zip"
               },
               "FunctionName": "nodejs-express-mysql-dev-app",
               "Handler": "server.handler",
@@ -178,14 +178,14 @@
               "AppLogGroup"
             ]
           },
-          "AppLambdaVersions7Ced8pRm4KuOxtfHBO3BXMRcgJCTT8fFV2lmSt8ck": {
+          "AppLambdaVersion168OpXzJg7FzjBuTLSfsgU6H7KkU54oJILsSmdE": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "AppLambdaFunction"
               },
-              "CodeSha256": "pfebShYb3iyXuBCUbWR8sen7sXY2rhoXq1TrZL6d/vo="
+              "CodeSha256": "J7zwSO1ds/7ZWMv+1NRtiEHsgiZafcw4ARrTNeMVnyo="
             }
           },
           "ApiGatewayRestApi": {
@@ -397,7 +397,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1602012927090": {
+          "ApiGatewayDeployment1602021231373": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -459,7 +459,7 @@
           "AppLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "AppLambdaVersions7Ced8pRm4KuOxtfHBO3BXMRcgJCTT8fFV2lmSt8ck"
+              "Ref": "AppLambdaVersion168OpXzJg7FzjBuTLSfsgU6H7KkU54oJILsSmdE"
             }
           },
           "ServiceEndpoint": {
@@ -620,7 +620,7 @@
         "timeout": 6,
         "runtime": "nodejs12.x",
         "vpc": {},
-        "versionLogicalId": "AppLambdaVersions7Ced8pRm4KuOxtfHBO3BXMRcgJCTT8fFV2lmSt8ck"
+        "versionLogicalId": "AppLambdaVersion168OpXzJg7FzjBuTLSfsgU6H7KkU54oJILsSmdE"
       }
     },
     "configValidationMode": "warn",
@@ -643,7 +643,7 @@
     "artifact": "/Users/fintanohea/git/nodejs-express-mysql/.serverless/nodejs-express-mysql.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/nodejs-express-mysql/dev/1602012930996-2020-10-06T19:35:30.996Z",
+    "artifactDirectoryName": "serverless/nodejs-express-mysql/dev/1602021234409-2020-10-06T21:53:54.409Z",
     "artifact": "nodejs-express-mysql.zip"
   }
 }

@@ -1,8 +1,12 @@
 const serverless = require('serverless-http');
 const express = require("express");
 const bodyParser = require("body-parser");
+const cors = require('cors');
 
 const app = express();
+
+// enable cors
+app.use(cors());
 
 // parse requests of content-type: application/json
 app.use(bodyParser.json());
