@@ -18,9 +18,9 @@ app.get("/", (req, res) => {
 require("./app/routes/customer.routes.js")(app);
 require("./app/routes/email-list.routes.js")(app);
 
-// // set port, listen for requests
-// app.listen(3000, () => {
-//   console.log("Server is running on port 3000.");
-// });
+// set port, listen for requests
+app.listen(3000, () => {
+  console.log("Server is running on port 3000.");
+});
 
-module.exports.handler = serverless(app);
+// module.exports.handler = serverless(app);
